@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.tm-icon{
+    width: 50px ; 
+    height: 50px ;
+    padding: 10px;
+
+}
+
+.tm-img{
+    width: 400px;
+    right: 400px;
+}
+
+.tx-center{
+    text-align: center;
+}
+
+
+.cor-rosa{ 
+    color: blueviolet (230, 4, 230) ;
+}
+
+#bg-fundo{
+    background-color: rgb(15, 110, 145);;
+}
+
+p{
+    font-size: 20px;
+}
+#fontelogo{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/**logo**/
+.logo{
+    font-weight: 600;
+    color:rgb(26, 212, 51);
+    font-size: 50px;
+ 
+ }
+
+
+/**menu**/
+#menu li{
+    display: inline;
+    padding: 100px;
+}
+#menu a {
+    text-decoration: rgb(26, 212, 51);
+    color:blue
+}
+#menu a li:hover {
+    color: cornflowerblue;
+}
+
+/**fim menu**/
+
+/**logo **/
+.container-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: DodgerBlue;
+  }
+  
+.container-menu > div {
+    display: flex;
+    background-color: #f1f1f1;
+    width: 30px;
+    margin: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+  }
+
